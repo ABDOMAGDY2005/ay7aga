@@ -4,8 +4,8 @@ import os
 app = Flask(__name__)
 AWS_ACCESS_KEY = ''
 AWS_SECRET_KEY = ''
-AWS_REGION = 'eu-north-1'
-BUCKET_NAME = 'cloudcompeter'
+AWS_REGION = ''
+BUCKET_NAME = ''
 
 s3 = boto3.client(
     's3',
